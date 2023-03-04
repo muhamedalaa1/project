@@ -15,32 +15,34 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <a href="#header"><i class="fa-solid fa-arrow-up"></i></a>
     <!-- start header-nav -->
-    <header>
+    <header id="header">
         <div class="header-container">          
             <a class="logo" href="#">Ola</a>
             <ul class="nav">
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Features</a></li>
+                <li><a href="#Articles">Articles</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Features">Features</a></li>
                 <li class="hov-menu"><a href="#">Other Links</a>
                     <div class="dropdown">
                         <div class="drop-img">
                             <img src="assets/imgs/megamenu.png" alt="">
                         </div>
                         <ul class="drop-links">
-                            <li><a href="#"><i class="fa-regular fa-comments"></i>Testimonials</a></li>
-                            <li><a href="#"><i class="fa-regular fa-user"></i>Team Members</a></li>
-                            <li><a href="#"><i class="fa-regular fa-calendar-days"></i>Services</a></li>
-                            <li><a href="#"><i class="fa-regular fa-circle-check"></i>Our Skills</a></li>
-                            <li><a href="#"><i class="fa-regular fa-calendar"></i>How It Works</a></li>       
+                            <li><a href="#Testimonials"><i class="fa-regular fa-comments"></i>Testimonials</a></li>
+                            <li><a href="#Members"><i class="fa-regular fa-user"></i>Team Members</a></li>
+                            <li><a href="#Services"><i class="fa-regular fa-calendar-days"></i>Services</a></li>
+                            <li><a href="#Skills"><i class="fa-regular fa-circle-check"></i>Our Skills</a></li>
+                            <li><a href="#Works"><i class="fa-regular fa-calendar"></i>How It Works</a></li>       
                         </ul>
                         <ul class="drop-links">
-                            <li><a href="#"><i class="fa-regular fa-calendar-days"></i>Events</a></li>
-                            <li><a href="#"><i class="fa-solid fa-water"></i>Pricing Plans</a></li>
-                            <li><a href="#"><i class="fa-regular fa-circle-play"></i>Top Videos</a></li>
-                            <li><a href="#"><i class="fa-solid fa-chart-column"></i>Stats</a></li>
-                            <li><a href="#"><i class="fa-solid fa-percent"></i>Request A Discount</a></li>
+                            <li><a href="#Events"><i class="fa-regular fa-calendar-days"></i>Events</a></li>
+                            <li><a href="#Pricing"><i class="fa-solid fa-water"></i>Pricing Plans</a></li>
+                            <li><a href="#Videos"><i class="fa-regular fa-circle-play"></i>Top Videos</a></li>
+                            <li><a href="#Stats"><i class="fa-solid fa-chart-column"></i>Stats</a></li>
+                            <li><a href="#Discount"><i class="fa-solid fa-percent"></i>Request A Discount</a></li>
                         </ul>
                     </div>
 
@@ -62,12 +64,12 @@
                 <img src="assets/imgs/landing-image.png" alt="">
             </div>
         </div>
-        <a class="go-down" href="#"><i class="fa-solid fa-angles-down"></i></a>
+        <a class="go-down" href="#Articles"><i class="fa-solid fa-angles-down"></i></a>
        
     </section>
     <!-- end landing -->
     <!-- start article -->
-    <section class="atrticle-sec">
+    <section class="atrticle-sec" id="Articles">
             <!-- this is the main title  -->
         <h1 class="main-title">Articles</h1>
             <!-- this is the main title  -->
@@ -178,9 +180,11 @@
             </div>       
         </div>
     </section>
+    <section class="spikes"></section>
+
     <!-- start article -->
     <!-- start gallery -->
-    <section class="gallery">
+    <section class="gallery" id="Gallery">
         <h1 class="main-title">Articles</h1>
 
         <div class="gallery-container">
@@ -219,7 +223,7 @@
     <!-- end gallery -->
 
     <!-- start features -->
-    <section class="features">
+    <section class="features" id="Features">
         <h1 class="main-title">Features</h1>
 
         <div class="features-container">
@@ -264,7 +268,7 @@
     <!-- end features -->
 
     <!-- start testimonail -->
-    <section class="testimonials">
+    <section class="testimonials" id="Testimonials">
         <h1 class="main-title">testimonials</h1>
         <div class="testi-container">
             <div class="testi-item">
@@ -340,7 +344,7 @@
     </section>
     <!-- end testimonail -->
     <!-- start team member -->
-    <section class="members">
+    <section class="members" id="Members">
         <h1 class="main-title">Team Members</h1>
         <div class="members-container">
             <div class="member-item">
@@ -434,10 +438,11 @@
         </div>
 
     </section>
+    <section class="spikes"></section>
     <!-- end team member -->
 
     <!-- start services -->
-    <section class="services">
+    <section class="services" id="Services">
         <h1 class="main-title">Services</h1>
 
         <div class="services-container">
@@ -493,7 +498,7 @@
     </section>
     <!-- end services -->
     <!-- start skills -->
-    <section class="skills">
+    <section class="skills" id="Skills">
         <h1 class="main-title">Our Skills</h1>
         <div class="skills-container">
             <img src="assets/imgs/skills/skills.png" alt="">
@@ -529,7 +534,7 @@
     <!-- end skills -->
 
     <!-- start works-->
-    <section class="works">
+    <section class="works" id="Works">
         <h1 class="main-title">How It Works</h1>
         <div class="works-container">
             <img src="assets/imgs/works/work-steps.png" alt="">
@@ -561,7 +566,9 @@
     <!-- end works-->
 
     <!-- start Events -->
-    <section class="event">
+    <section class="event" id="Events">
+        <div class="dots dots-up"></div>
+        <div class="dots dots-down"></div>
         <h1 class="main-title">Latest Events</h1>
         <div class="event-container">
             <img src="assets/imgs/events/events.png" alt="">
@@ -600,7 +607,9 @@
     <!-- end Events -->
 
     <!-- start pricing -->
-    <section class="pricing">
+    <section class="pricing" id="Pricing">
+        <div class="dots dots-up"></div>
+        <div class="dots dots-down"></div>
         <h1 class="main-title">Pricing Plans</h1>
         <div class="pricing-container">
             <div class="pricing-item">
@@ -658,5 +667,126 @@
     </section>
     <!-- end pricing -->
 
+    <!-- start video -->
+    <section class="video" id="Videos">
+        <h1 class="main-title">Top Videos</h1>
+        <div class="video-container">
+            <div class="vid-list">
+                <div class="list-head">
+                    <h3>Top Videos</h3>
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+                <ul>
+                    <li><a href="#">How To Create Sub Domain</a><span>05:18</span></li>
+                    <li><a href="#">Playing With The DNS</a><span>03:18</span></li>
+                    <li><a href="#">Everything About The Virtual Hosts</a><span>02:30</span></li>
+                    <li><a href="#">How To Monitor Your Website</a><span>01:50</span></li>
+                    <li><a href="#">Uncharted Beating The Last Boss</a><span>03:38</span></li>
+                    <li><a href="#">Ys Oath In Felghana Overview</a><span>04:20</span></li>
+                    <li><a href="#">Ys Series All Games Ending</a><span>04:51</span></li>
+                </ul>
+            </div>
+            <div class="vid-view">
+                <img src="assets/imgs/video/video-preview.jpg" alt="">
+                
+                <p>Everything About The Virtual Hosts</p>
+               
+            </div>
+        </div>
+    </section>
+    <!-- end video -->
+
+    <!-- start stats  -->
+    <section class="stats" id="Stats">
+        <h1 class="main-title"> Stats</h1>
+        <div class="stats-container">
+            <div class="stats-box">
+                <i class="fa-regular fa-user"></i>
+                <h1>150</h1>
+                <p>Clients</p>
+            </div>
+            <div class="stats-box">
+                <i class="fa-solid fa-code"></i>
+                <h1>135</h1>
+                <p>Projects</p>
+            </div>
+            <div class="stats-box">
+                <i class="fa-solid fa-earth-asia"></i>
+                <h1>50</h1>
+                <p>Countries</p>
+            </div>
+            <div class="stats-box">
+                <i class="fa-regular fa-money-bill-1"></i>
+                <h1>500</h1>
+                <p>Money</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end stats  -->
+
+    <!-- start discount -->
+    <section class="discount" id="Discount">
+        <div class="discount-left">
+           <div class="left-txt">
+                <h1>We Have A Discount</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique laborum dicta aperiam odit doloribus corporis.</p>
+                <img src="assets/imgs/discount/discount.png" alt="">
+           </div> 
+        </div>
+        <div class="discount-right">
+            <h1>Request A Discount</h1>
+            <form action="">
+                <input class="one" type="text" placeholder="Your Name" >
+                <input class="two" type="email" placeholder="Your Email">
+                <input class="three" type="number" placeholder="Your Number">
+                <textarea placeholder="Tell Us About Your Needs"></textarea>
+                <input class="four" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <!-- end discount -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="foot-container">
+            <div class="ola">
+                <h1>Ola</h1>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
+            </div>
+            <div class="important">
+                <ul>
+                    <li> <i class="fa-solid fa-angles-right"></i> <a href="#">Important Link 1</a></li>
+                    <li> <i class="fa-solid fa-angles-right"></i> <a href="#">Important Link 2</a></li>
+                    <li> <i class="fa-solid fa-angles-right"></i> <a href="#">Important Link 3</a></li>
+                    <li> <i class="fa-solid fa-angles-right"></i> <a href="#">Important Link 4</a></li>
+                    <li> <i class="fa-solid fa-angles-right"></i> <a href="#">Important Link 5</a></li>
+                </ul>
+            </div>
+            <div class="place">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Egypt, Giza, Inside The Sphinx, Room Number 220</li>
+                    <li> <i class="fa-regular fa-clock"></i> Business Hours: From 10:00 To 18:00</li>
+                    <li> <i class="fa-solid fa-phone-volume"></i> +20198765432 | +20123456789 </li>
+                </ul>
+            </div>
+            <div class="add-pics">
+                <img src="assets/imgs/gallery-sec/gallery-01.png" alt="">
+                <img src="assets/imgs/gallery-sec/gallery-02.png" alt="">
+                <img src="assets/imgs/gallery-sec/gallery-03.jpg" alt="">
+                <img src="assets/imgs/gallery-sec/gallery-04.png" alt="">
+                <img src="assets/imgs/gallery-sec/gallery-05.jpg" alt="">
+                <img src="assets/imgs/gallery-sec/gallery-06.png" alt="">      
+            </div>
+        </div>
+        <div class="made">
+            <h2>Made With Love By Mohamed Alaa</h2>
+        </div>
+    </footer>
+    <!-- end footer -->
 </body>
 </html>
